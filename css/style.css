@@ -240,6 +240,10 @@ a {
   .popular-foods__filters {
     justify-content: start;
   }
+
+  .popular-foods__card, .popular-foods__card.active-card {
+    min-width: 100%;
+  }
 }
 
 @media screen and (max-width: 550px) {
