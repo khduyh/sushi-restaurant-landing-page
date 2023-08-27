@@ -236,6 +236,12 @@ a {
 /* END: hero media queries */
 
 /* START: popular media queries */
+@media screen and (max-width: 900px) {
+  .popular-foods__filters {
+    justify-content: start;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .popular-foods {
     padding: 64px 32px;
@@ -244,6 +250,10 @@ a {
   .popular-foods__card,
   .popular-foods__card.active-card {
     min-width: 100%;
+  }
+
+  .popular-foods__filters {
+    justify-content: start;
   }
 }
 /* END: popular media queries */
